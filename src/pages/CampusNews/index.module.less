@@ -1,0 +1,44 @@
+.wrapper{
+  text-align: center;
+}
+.cnews{
+  position: relative;
+  height: 100vh;
+  margin: 70px auto;
+  display: flex;
+  justify-content: center;
+}
+.form{
+  width: 70%;
+}
+:global(.ck-content){
+  min-height: 500px;
+  min-width: 100%;
+}
+.thumb{
+  position: relative;
+  width: 120px;
+  height: 90px;
+  background: #fafafa;
+  margin-bottom: 100px;
+}
+.thumb::before {
+  content: '最适尺寸120×90';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer{
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px){
+  .cnews{
+    height: auto;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
