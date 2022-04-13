@@ -137,8 +137,7 @@ export default function CampusNews() {
       </div>
       <footer>
         <div className={style.footer}>
-          <div>Make by John</div>
-          <div>@CAUC</div>
+          <div>Make by John @CAUC</div>
         </div>
       </footer>
     </div>
