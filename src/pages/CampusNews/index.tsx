@@ -42,7 +42,7 @@ export default function CampusNews() {
       <h2>campus news template</h2>
       <div className={style.cnews}>
         <div className={style.thumb}>
-          <Image className={style.thumb_box} src={thumb} />
+          <Image className={style.thumb_box} src={thumb} width={200}/>
         </div>
         <div className={style.form}>
           <Form
@@ -135,11 +135,6 @@ export default function CampusNews() {
           </Form>
         </div>
       </div>
-      <footer>
-        <div className={style.footer}>
-          <div>Make by John @CAUC</div>
-        </div>
-      </footer>
     </div>
   );
 }
